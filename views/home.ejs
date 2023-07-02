@@ -1,0 +1,24 @@
+
+<%- include("partials/header"); -%>
+
+    <h1>Home</h1>
+    <p> Welcome to BlogVerse - Your Gateway to the World of Inspiration!
+
+      At BlogVerse, we believe that words have the power to transform lives, ignite imagination, and create a positive impact on the world. This is a place where ideas flow freely, creativity knows no bounds, and voices are heard with utmost respect.
+      
+      Home to a diverse community of writers, thinkers, and dreamers, BlogVerse offers a kaleidoscope of stories, perspectives, and insights. Whether you are a seasoned wordsmith or a first-time blogger, this platform welcomes you to share your thoughts, experiences, and passions with the world. </p>
+    <hr class="new">
+
+  <%  posts.forEach(function(post){ %>
+
+    <h3><%=post.title%></h3>
+    <p>
+    <%=post.content.substring(0, 100) + " ..."%>
+    <a href="/posts/<%=post._id%>">Read More</a>
+    </p>
+
+
+    <% }) %>
+
+
+<%- include("partials/footer"); -%>

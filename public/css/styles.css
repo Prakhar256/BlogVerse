@@ -1,0 +1,68 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body{
+  background-color: #e0e0e0;
+  background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+    letter-spacing: 2px;
+    height: 85px;
+    background-color: #383838;
+    background-image: url("https://www.transparenttextures.com/patterns/hixs-evolution.png");
+
+}
+.navbar-nav  {
+  color: #e0e0e0;
+}
+.navbar-nav  li a:hover {
+    color: #f8f8f8 !important;
+    font-size: large;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #000000;
+}
+
+.footer p {
+	margin-top: 15px;
+	font-size: 20px;
+  color: #ffffff;
+
+}
+hr.new {
+  border-top: 1px solid rgb(7, 7, 7);
+}
+.navbar-nav > li > a {
+  color: white;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #707070;
+  background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+  
+}
