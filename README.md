@@ -16,7 +16,7 @@ May be if your device does not have Node JS then you you have to install node al
   <h1>Home Page</h1>
     <img src="HomePage.png" alt="HomePage" >
   <h1>Contact Us Page</h1>
-    <img src="Contactus.png" alt="ContactPage" >
+    <img src="ContactUsPage.png" alt="ContactPage" >
 </div>  
 Technology used are:
 * ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)
