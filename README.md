@@ -9,6 +9,15 @@ Features:
   5) On home page if anybody want to read more then website will render it to a fresh page consisting of that particular blog.
 You can run this website on local server by writing "node app.js" in terminal.
 May be if your device does not have Node JS then you you have to install node also by writing npm i in terminal.
+
+<div align="center">
+  <h1>Compose Page</h1>
+    <img src="Compose_Blog.png" alt="ComposePage" >
+  <h1>Home Page</h1>
+    <img src="HomePage.png" alt="HomePage" >
+  <h1>Contact Us Page</h1>
+    <img src="Contactus.png" alt="ContactPage" >
+</div>  
 Technology used are:
 * ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)
 * ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)
